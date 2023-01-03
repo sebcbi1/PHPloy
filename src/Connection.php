@@ -4,7 +4,7 @@ namespace Banago\PHPloy;
 
 use League\Flysystem\Adapter\Ftp as FtpAdapter;
 use League\Flysystem\Filesystem;
-use League\Flysystem\Sftp\SftpAdapter as SftpAdapter;
+use League\Flysystem\PhpseclibV3\SftpAdapter as SftpAdapter;
 
 /**
  * Class Connection.
